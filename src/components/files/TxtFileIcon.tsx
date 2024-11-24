@@ -22,7 +22,7 @@ export default function TxtFileIcon({ item }: TxtFileIconProps) {
             </WrapperFileIcon>
             {
                 isOpen && createPortal(
-                    <MoveWindow type="txt" content={""} title={item.title} close={() => setOpen(false)} />
+                    <MoveWindow type="txt" content={<>{item.text}</>} title={item.title} close={() => setOpen(false)} />
                     , portal!)
             }
         </>

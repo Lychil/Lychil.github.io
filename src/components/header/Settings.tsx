@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { font } from "../../common/styles/styleConstants";
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 const Wrapper = styled('div')`
 display: flex;
